@@ -4,11 +4,11 @@ Status lines para [Cursor](https://cursor.com) y [agy](https://antigravity.googl
 
 ![agy](docs/agy.png)
 
-agy muestra lo que queda disponible. El semanal y la ventana de 5 horas incluyen cuándo se renuevan. El tercer renglón es el cupo de modelos de terceros, cuando el plan lo manda.
+agy muestra lo que queda disponible. El semanal y la ventana de 5 horas son Gemini e incluyen cuándo se renuevan. El tercer renglón es Claude y GPT.
 
 ![Cursor](docs/cursor.png)
 
-Cursor muestra lo usado. El reloj de Cursor es el fin del billing cycle. El de Grok Bot es su propio reset. Auto y API son los dos buckets de ese mismo ciclo. El porcentaje de la primera línea, en las dos, es el context window, no la cuota.
+Cursor muestra lo que queda, en rojo desde el 80% usado. Auto, Composer y Grok comparten una cubeta; Claude, GPT y Gemini, la otra. Si la cubeta que gasta el modelo de la sesión está agotada, esa frase va primero. Esas dos renuevan al fin del billing cycle. Grok.com tiene su propio reloj. El porcentaje de la primera línea, en las dos, es el context window, no la cuota.
 
 ## Herramientas
 
